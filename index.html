@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warung Madura Express - POS System</title>
+    <title>Toko Basmala- POS System</title>
     
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -438,7 +438,7 @@
                             <option value="sembako">Sembako</option>
                             <option value="rokok">Rokok</option>
                             <option value="snack">Snack</option>
-                            <option value="mandi">Mandi & Cuci</option>
+                            <option value="mandi">Sabun</option>
                         </select>
                     </div>
                     <div>
@@ -446,8 +446,8 @@
                         <select id="prod-sub" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-amber-500">
                             <option value="umum">Umum</option>
                             <option value="mie">Mie Instan</option>
-                            <option value="bihun">Bihun</option>
-                            <option value="telur">Telur Ayam</option>
+                            <option value="bihun">Pocari Sweet</option>
+                            <option value="telur">Rokok</option>
                             <option value="krupuk">Krupuk</option>
                         </select>
                     </div>
@@ -563,7 +563,7 @@
                 <img id="receipt-logo-img" src="" style="max-height: 50px; max-width: 120px; margin: 0 auto; display: block;">
             </div>
             <div class="receipt-header">
-                <h2 id="receipt-store-name">WARUNG MADURA EXPRESS</h2>
+                <h2 id="receipt-store-name">TOKO BASMALA</h2>
                 <p id="receipt-store-address">Jl. Buka 24 Jam Nonstop No. 1</p>
                 <p id="receipt-store-phone">Telp: 0812-3456-7890</p>
             </div>
@@ -641,7 +641,7 @@
         let searchQuery = '';
         
         let storeSettings = JSON.parse(localStorage.getItem('wm_settings')) || {
-            name: "WARUNG MADURA EXPRESS",
+            name: "TOKO BASMALA",
             address: "Jl. Buka 24 Jam Nonstop No. 1, Jakarta",
             phone: "0812-3456-7890",
             footer: "Terima Kasih Atas Kunjungan Anda!\nBuka 24 Jam Nonstop",
